@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -38,6 +49,23 @@
 }
 
 /* ===== Global Styles ===== */
+.fade-up {
+  opacity: 0;
+  animation: fadeUp 1s ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.3s;
+}
+
+.delay-2 {
+  animation-delay: 0.6s;
+}
+
+.delay-3 {
+  animation-delay: 0.9s;
+}
+
 .App-body {
   margin: 0;
   background-color: #F5F5F5;
@@ -69,6 +97,10 @@
   font-weight: 600;
 }
 
+.navbar-brand img {
+  height: 40px;
+}
+
 .nav-link {
   color: #F5F5F5 !important;
 }
@@ -80,7 +112,19 @@
 .hero {
   background-color: #1A237E;
   color: #F5F5F5;
-  padding: 80px 20px;
+
+  background-image: url("../assets/banner cat.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;          /* FULL SCREEN */
+  display: flex;              /* center content */
+  flex-direction: column;
+  justify-content: center;    /* vertical center */
+  align-items: center;        /* horizontal center */
+
+  padding: 0 20px;            /* remove top/bottom padding */
   text-align: center;
 }
 
