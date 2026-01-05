@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from "../src/assets/cat(1).png"
+import logo from "/workspaces/NexusSoft/src/assets/cat (1).png"
 
 const Navbar = () => {
   return (
