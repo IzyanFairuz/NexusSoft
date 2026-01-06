@@ -1,17 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from "/workspaces/NexusSoft/src/assets/cat (1).png"
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <img
-            src={logo}
-            alt="NexusSoft Logo"
-            height="40"
-            className="me-2"
-          />
         <a className="navbar-brand" href="/">NexusSoft</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>

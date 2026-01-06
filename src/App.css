@@ -28,16 +28,28 @@
   color: #61dafb;
 }
 
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
+/* Fade in + move up */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.4s;
+}
+
+.delay-2 {
+  animation-delay: 0.8s;
+}
+
+@keyframes fadeInUp {
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 
 @keyframes App-logo-spin {
   from {
@@ -113,7 +125,7 @@
   background-color: #1A237E;
   color: #F5F5F5;
 
-  background-image: url("../src/assets/Beige Aesthetic Fashion Clothing Collection Medium Banner.png");
+  background-image: url("../src/assets/banner.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -127,6 +139,22 @@
   padding: 0 20px;            /* remove top/bottom padding */
   text-align: center;
 }
+
+.about-section {
+  padding: 80px 0;
+  background-color: #F5F5F5;
+}
+
+.about-video {
+  margin-top: 30px;
+  max-width: 800px;
+}
+
+.about-video video {
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
 
 .hero p {
   color: #00E5FF;
