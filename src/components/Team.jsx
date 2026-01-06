@@ -7,13 +7,13 @@ import SabImg from "../assets/sabrina.jpg";
 const Team = () => {
   return (
     <section id="team" className="container">
-        <h2>Our Team:</h2>
+        <h2>Meet the Team</h2>
       <div className="team-container">
         {/* Team Member 1 */}
         <div className="team-card">
           <img src={IzyanImg} alt="Izyan" className="team-photo"/>
           <h3>NUR IZYAN FAIRUZ BINTI ABDUL MALEK</h3>
-          <p className="position">Web Developer</p>
+          <p className="position">Front-end Developer</p>
           <p className="description">
             Responsible for UI design, React components, and responsive layout.
           </p>
