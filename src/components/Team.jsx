@@ -15,7 +15,7 @@ const Team = () => {
           <h3>NUR IZYAN FAIRUZ BINTI ABDUL MALEK</h3>
           <p className="position">Front-end Developer</p>
           <p className="description">
-            Responsible for UI design, React components, and responsive layout.
+            Responsible for developing responsive and interactive web interfaces using modern web technologies. Focuses on implementing React components, optimizing performance, and ensuring seamless integration between design and functionality across different devices and browsers.
           </p>
         </div>
 
@@ -25,7 +25,7 @@ const Team = () => {
           <h3>NUR FARIDAH BT SHAHARUDIN</h3>
           <p className="position">UI/UX Designer</p>
           <p className="description">
-            Short description about roles and responsibilities.
+            Responsible for designing intuitive user interfaces and crafting seamless user experiences. Focuses on wireframing, prototyping, and usability testing to ensure the product is visually appealing, user-friendly, and aligned with user needs.
           </p>
         </div>
 
@@ -35,7 +35,7 @@ const Team = () => {
           <h3>NUR SABRINA BINTI SABRI</h3>
           <p className="position">Professional Consultant</p>
           <p className="description">
-            Short description about roles and responsibilities.
+            Responsible for analyzing client requirements and providing strategic IT solutions. Acts as a bridge between clients and the development team to ensure project objectives, timelines, and business goals are clearly defined and successfully achieved.
           </p>
         </div>
       </div>
