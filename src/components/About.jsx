@@ -50,8 +50,7 @@ const About = () => {
 
       <p>
         <strong>VISION:</strong> 
-        Becoming a trusted IT consulting partner recognized for
-        innovation, teamwork, and excellence in service delivery.
+        To be a global leader in providing accessible, cutting-edge technology for the next generation of digital users.
       </p>
     </div>
 
